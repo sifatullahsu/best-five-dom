@@ -66,6 +66,4 @@ getId('calculate-total').addEventListener('click', function(){
   else{
     alert('Please input valid value..');
   }
-
-  
 });
