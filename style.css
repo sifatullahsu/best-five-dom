@@ -19,7 +19,7 @@ button[disabled="true"] {
 
 @media (max-width: 767px) {
   .herader-padding {
-    padding-top: 60px;
+    /*     padding-top: 60px; */
     padding-bottom: 60px;
   }
 
