@@ -37,6 +37,9 @@ for(let singlePlayer of getClass("player")){
   });
 }
 
+/**
+ * Calculate Button Event  
+**/
 getId('calculate').addEventListener('click', function(){
   const selectFive = getId("select-five").childElementCount;
   const perPlayer = parseFloat(getId('per-player').value);
@@ -49,6 +52,9 @@ getId('calculate').addEventListener('click', function(){
   }
 });
 
+/**
+ * Calculate Total Button Event  
+**/
 getId('calculate-total').addEventListener('click', function(){
   const calculateAmount = parseFloat(getId('calculate-amount').innerText);
   const manager = parseFloat(getId('manager').value);
@@ -63,4 +69,3 @@ getId('calculate-total').addEventListener('click', function(){
 
   
 });
-
