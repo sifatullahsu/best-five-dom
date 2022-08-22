@@ -1,0 +1,23 @@
+body {
+  font-family: 'sManrope', sans-serif;
+}
+
+.herader-padding {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+button[disabled="true"]:hover,
+button[disabled="true"] {
+  background-color: gray;
+}
+
+
+@media (max-width: 767px) {
+  .herader-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+
+}
