@@ -7,6 +7,10 @@ body {
   padding-bottom: 130px;
 }
 
+.berkshire-font {
+  font-family: 'Berkshire Swash', cursive;
+}
+
 button[disabled="true"]:hover,
 button[disabled="true"] {
   background-color: gray;
